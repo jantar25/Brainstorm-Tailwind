@@ -1,10 +1,21 @@
-
+import {Blog,Features,Footer,Header,Possibility,WhatsBrain} from './Containers'
+import {Cta,Navbar,Brand} from './Components'
 
 function App() {
   return (
-    <div className="container mx-auto bg-gray-500 text-2xl text-white text-center">
-      Hello
-    </div>
+        <div className='bg-bg'>
+          <div className='bg-gradient-to-r from-[#002853] to-[#040C18]-500'>
+            <Navbar />
+            <Header />
+          </div>
+          <Brand />
+          <WhatsBrain />
+          <Features />
+          <Possibility />
+          <Cta />
+          <Blog />
+          <Footer />
+        </div>
   );
 }
 
