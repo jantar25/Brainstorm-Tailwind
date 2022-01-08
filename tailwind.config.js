@@ -17,11 +17,6 @@ module.exports = {
     },
 
     extend: {
-      backgroundImage : theme =>({
-        'bkg-text' : "linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%)",
-        'bkg-bar' : "linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%)",
-      }),
-
       colors : theme =>({
         "bg" : "#040C18",
         "blog" : "#042c54",

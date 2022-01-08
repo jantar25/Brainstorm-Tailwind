@@ -33,7 +33,7 @@ const Navbar = () => {
           <div className="hidden md:flex justify-end items-center">
             <p className="text-white font-Manrope mx-4 text-base">Sign In</p>
             <button type='button' className="px-6 py-2 text-white font-Manrope 
-            bg-gradient-to-br from-pink-400 to-red-600 rounded">Sign Up</button>
+            bg-[#FF4820] rounded">Sign Up</button>
           </div>
           <div className='flex lg:hidden ml-2 relative'>
             {toggleMenu ?
@@ -46,8 +46,7 @@ const Navbar = () => {
                 <Menu />
                 <div className="block md:hidden justify-end items-center flex-col mx-4">
                   <p className="text-white font-Manrope my-4 text-base">Sign In</p>
-                  <button type='button' className="px-6 py-2 text-white font-Manrope 
-                  bg-gradient-to-br from-pink-400 to-red-600 rounded">Sign Up</button>
+                  <button type='button' className="bg-[#FF4820] px-6 py-2 text-white font-Manrope rounded">Sign Up</button>
                 </div>
               </div>
             </div>
