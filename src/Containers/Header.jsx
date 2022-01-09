@@ -8,7 +8,7 @@ const Header = () => {
             <div className='flex-1 flex justify-center items-start flex-col mb-24 lg:mr-32'>
                 <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-500 to-red-600 font-Manrope
                 text-3xl md:text-5xl font-black'>
-                    Build with us something amazing with Brainstorm Open AI</h1>
+                    Build something amazing with Brainstorm Open AI</h1>
                 <p className='font-Manrope text-md md:text-lg text-text mt-6'>
                     The ability of a computer or a robot controlled by a computer to do tasks that are usually
                      done by humans because they require human intelligence and discernment</p>
@@ -20,7 +20,7 @@ const Header = () => {
                 </div>
                 <div className='flex flex-col md:flex-row w-full justify-start items-center mt-8'> 
                     <img className='w-[181px] h-[38px]' src={people} alt="people" />
-                    <p className='font-Manrope text-lg text-center text-white md:ml-4'>
+                    <p className='font-Manrope text-md text-center text-white md:ml-4'>
                         1,850 people requested access a visit in last 24 hours.</p>
                 </div>
             </div>
