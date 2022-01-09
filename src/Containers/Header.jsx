@@ -4,7 +4,7 @@ import ai from '../Images/ai.png'
 
 const Header = () => {
     return (
-        <div className='flex flex-col lg:flex-row p-5 sm:px-20' id='Home'>
+        <div className='flex flex-col lg:flex-row px-5 py-10 sm:px-20' id='Home'>
             <div className='flex-1 flex justify-center items-start flex-col mb-24 lg:mr-32'>
                 <h1 className='text-transparent bg-clip-text bg-gradient-to-r from-pink-400 via-purple-500 to-red-600 font-Manrope
                 text-3xl md:text-5xl font-black'>
