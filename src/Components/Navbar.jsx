@@ -1,14 +1,20 @@
 import React,{useState} from 'react'
 import tes from "../Images/it.png"
 import {RiCloseLine,RiMenu4Line} from 'react-icons/ri'
+import { Link } from 'react-scroll'
 
 const Menu = ()=>(
   <>
-    <p className="text-white font-Manrope mx-4 my-1 text-base"><a href='#Home'>Home</a></p>
-    <p className="text-white font-Manrope mx-4 my-1 text-base"><a href='#WhatsBrain'>About Brainstorm</a></p>
-    <p className="text-white font-Manrope mx-4 my-1 text-base"><a href='#possibilities'>Open AI</a></p>
-    <p className="text-white font-Manrope mx-4 my-1 text-base"><a href='#features'>Case Studies</a></p>
-    <p className="text-white font-Manrope mx-4 my-1 text-base"><a href='#blog'>Library</a></p>
+    <p className="text-white font-Manrope mx-4 my-1 text-base">
+    <Link className="cursor-pointer" to="Home" smooth={true} duration={500}>Home</Link></p>
+    <p className="text-white font-Manrope mx-4 my-1 text-base">
+    <Link className="cursor-pointer" to="WhatsBrain" smooth={true} duration={500}>About Brainstorm</Link></p>
+    <p className="text-white font-Manrope mx-4 my-1 text-base">
+    <Link className="cursor-pointer" to="possibilities" smooth={true} duration={500}>Open AI</Link></p>
+    <p className="text-white font-Manrope mx-4 my-1 text-base">
+    <Link className="cursor-pointer" to="features" smooth={true} duration={500}>Case Studies</Link></p>
+    <p className="text-white font-Manrope mx-4 my-1 text-base">
+    <Link className="cursor-pointer" to="blog" smooth={true} duration={500}>Library</Link></p>
   </>
 )
 
